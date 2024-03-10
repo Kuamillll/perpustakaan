@@ -18,4 +18,7 @@ class Bookshelf extends Model
     public function book(){
         return $this->hasMany(Book::class, "bookshelf_id","id");
     }
+    public function category(){
+        return $this->belongsTo(Category::class,"category_id","id");
+    }
 }

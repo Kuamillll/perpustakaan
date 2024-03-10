@@ -3,6 +3,8 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
+use app\Models\Category;
+use app\Models\Bookshelf;
 
 return new class extends Migration
 {
@@ -13,7 +15,8 @@ return new class extends Migration
     {
         Schema::create('_books', function (Blueprint $table) {
             $table->id();
-            $table->String("category_id");
+            $table->foreignIdFor(Category::class,"category_id");
+            $table->foreignIdFor(Bookshelf::class,"bookshelf_id");
             $table->String("cover", 255)->nullable();
             $table->String("ISBN", 15)->unique;
             $table->String("title", 255);
@@ -21,7 +24,7 @@ return new class extends Migration
             $table->String("publisher", 255);
             $table->Date("public_year");
             $table->String("author", 250);
-            $table->bigInteger("bookshelf_id");
+            $table->timestamps();
         });
     }
 
