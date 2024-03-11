@@ -1,5 +1,5 @@
-@extends("template")
+@extends("layouts.template")
 
 @section("content")
-   <h1 class="text-uppercase">Kamil</h1> 
+   <h1 class="mb-3 text-uppercase text-center">Kamil</h1> 
 @endsection
