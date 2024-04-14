@@ -17,4 +17,7 @@ class AppController extends Controller
     public function login(){
         return view("Auth.login");
     }
+    public function register(){
+        return view("Auth.register");
+    }
 }
