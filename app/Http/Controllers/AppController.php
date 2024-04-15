@@ -20,4 +20,7 @@ class AppController extends Controller
     public function register(){
         return view("Auth.register");
     }
+    public function Dashboard(){
+        return view("Admin.Dashboard");
+    }
 }

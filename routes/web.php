@@ -18,3 +18,4 @@ Route::get('/', [AppController::class,"home"]);
 Route::get('data', [AppController::class,"data"]);
 Route::get('login', [AppController::class,"login"]);
 Route::get('register',[AppController::class,"register"]);
+Route::get('Dashboard',[AppController::class,"Dashboard"]);

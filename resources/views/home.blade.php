@@ -8,6 +8,11 @@
      <link rel="shortcut icon" href="{{ url('images/icon.png') }}" type="image/x-icon">
      <link href="{{ url('asset/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
      <link href="{{ url('asset/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+     <link href="{{ url('asset/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+     <link href="{{ url('asset/vendor/quill/quill.snow.css') }}" rel="stylesheet">
+     <link href="{{ url('asset/vendor/quill/quill.bubble.css') }}" rel="stylesheet">
+     <link href="{{ url('asset/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+     <link href="{{ url('asset/vendor/simple-datatables/style.css') }}" rel="stylesheet">
      <link href="{{ url('asset/vendor/aos/aos.css') }}" rel="stylesheet">
      <link href="{{ url('asset/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
      <link href="{{ url('asset/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
