@@ -11,10 +11,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('categorys', function (Blueprint $table) {
+        Schema::create('bookshelves', function (Blueprint $table) {
             $table->id();
-            $table->String('nama', 255);
-            $table->timestamps();
+            $table->String('bookshelf',255);
         });
     }
 
@@ -23,6 +22,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('categorys');
+        Schema::dropIfExists('bookshelves');
     }
 };

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 use Illuminate\Database\Eloquent\Relations\BeLongsTo;
 
-class Book extends Model
+class book extends Model
 {
     use HasFactory;
 
@@ -19,6 +19,6 @@ class Book extends Model
         return $this->belongsTo(Category::class, "category_id", "id");
     }
     public function bookshelf(){
-        return $this->hasMany(Bookshelf::class, "bookshelf_id", "id");
+        return $this->belongsTo(Bookshelf::class, "bookshelf_id", "id");
     }
 }

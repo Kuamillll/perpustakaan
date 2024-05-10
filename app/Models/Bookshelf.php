@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
-class Bookshelf extends Model
+class bookshelf extends Model
 {
     use HasFactory;
 
@@ -15,10 +15,7 @@ class Bookshelf extends Model
     protected $primaryKey = 'id';
     protected $guarded = ['id'];
 
-    public function book(){
+    public function books(){
         return $this->hasMany(Book::class, "bookshelf_id","id");
-    }
-    public function category(){
-        return $this->belongsTo(Category::class,"category_id","id");
     }
 }
