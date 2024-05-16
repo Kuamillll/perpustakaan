@@ -193,6 +193,6 @@ class DataController extends Controller
             "bookshelves" => $bookshelves
         ]);
 
-        return view("Admin.detail_buku", compact('data'));
+        return view("Admin.detail_buku", compact('books'));
     }
 }

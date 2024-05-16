@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AppController;
 use App\Http\Controllers\DataController;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\AdminController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,11 +18,13 @@ use App\Http\Controllers\DataController;
 |
 */
 
-Route::get('/', [AppController::class,"Dashboard"]);
+Route::get('Dashboard', [AppController::class,"Dashboard"]);
+Route::get('chart', [AppController::class,"chart"]);
+Route::get('/', [AppController::class,"home"]);
 Route::get('data', [AppController::class,"data"]);
 Route::get('category', [AppController::class,"category"]);
 Route::get('bookshelf', [AppController::class,"bookshelf"]);
-Route::get('user', [AppController::class,"user"]);
+Route::get('datauser', [AppController::class,"datauser"]);
 // view_tambah
 Route::get('tambah-data', [DataController::class,"tambah_data"]);
 Route::get('tambah-category', [DataController::class,"tambah_category"]);
@@ -44,6 +49,4 @@ Route::get('data/{id}/edit', [DataController::class,"edit_data"]);
 Route::get('category/{id}/edit', [DataController::class,"edit_category"]);
 Route::get('bookshelf/{id}/edit', [DataController::class,"edit_bookshelf"]);
 
-Route::get('login', [AppController::class,"login"]);
-Route::get('register',[AppController::class,"register"]);
 // Route::get('Dashboard',[AppController::class,"Dashboard"]);

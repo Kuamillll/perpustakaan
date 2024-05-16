@@ -19,7 +19,6 @@ return new class extends Migration
             $table->string('password');
             $table->longText('alamat')->nullable();
             $table->string('telp', 25);
-            $table->enum('role', ['admin', 'user'])->default('admin');
             $table->timestamps();
         });
     }

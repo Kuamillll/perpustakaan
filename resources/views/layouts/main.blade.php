@@ -61,19 +61,7 @@
                         <i class="fas fa-search"></i>
                     </a>
                     <div class="navbar-search-block">
-                        <form class="form-inline">
-                            <div class="input-group input-group-sm">
-                                <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-                                <div class="input-group-append">
-                                    <button class="btn btn-navbar" type="submit">
-                                        <i class="fas fa-search"></i>
-                                    </button>
-                                    <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-                                        <i class="fas fa-times"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
+                        
                     </div>
                 </li>
                 <li class="nav-item">
@@ -139,15 +127,9 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="{{ url('category') }}" class="nav-link">
+                                    <a href="{{ url('chart') }}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Kategori</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="{{ url('bookshelf') }}" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Rak Buku</p>
+                                        <p>Buku favorit</p>
                                     </a>
                                 </li>
                             </ul>
@@ -171,6 +153,18 @@
                                     <a href="pages/tables/data.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Data User</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ url('bookshelf') }}" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Rak Buku</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{{ url('category') }}" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Kategori</p>
                                     </a>
                                 </li>
                                 <!-- <li class="nav-item">

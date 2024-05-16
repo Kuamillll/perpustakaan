@@ -21,39 +21,39 @@
  </head>
 
  <body>
-     <header id="header" class="p-3 mb-4 bg-dark fixed-top">
-         <div class="container d-flex align-item-center">
-             <ul class="nav col-12 col-lg-auto mb-4 mb-lg-0 me-lg-4 sign-buttons">
-                 <li class="nav-item me-auto"><a href="{{ asset('/') }}" class="nav-link px-2 link-secondary text-white fs-5 fw-bold">E-Library</a></li>
-             </ul>
-             <div class="clock">
-                 <div id="day"></div>
-                 <div id="date"></div>
-             </div>
-             <nav id="navbar" class="navbar">
-                 <ul class="nav col-12 col-lg-auto mb-4 mb-lg-0 me-lg-4 sign-buttons">
-                     <li><img src="{{ url('images/moon.png') }}" id="icon"></li>
-                 </ul>
-                 <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0 sign-buttons">
-                     <li><a href="{{ url('login') }}" class="nav-link px-2 link-body-emphasis">
-                             <i class="bi bi-box-arrow-in-right fs-6"></i>
-                             &nbsp;
-                             <span>Sign in</span>
-                         </a>
-                     </li>
-                 </ul>
-                 <ul class="nav col-12 col-lg-auto mb-2 justify-content-center mb-md-0 sign-buttons">
-                     <li><a href="{{ url('register') }}" class="nav-link px-2 link-body-emphasi">Sign up</a></li>
-                 </ul>
-             </nav>
-         </div>
-     </header>
+ <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <div class="container px-5 px-lg-5">
+            <a class="navbar-brand text-light fs-5 fw-bold" href="#">E-Library</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                    <li class="nav-item"><a class="nav-link active text-light" aria-current="page" href="#!">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#!">Rekomendasi</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#!">Tentang Kami</a></li>
+                </ul>
+                <li class="nav-item ">
+                    <a class="nav-links text-light" href="{{ url('login')}}">
+                        <i class="bi bi-box-arrow-in-right"></i>
+                        Login</a>
+                </li>
+            </div>
+        </div>
+    </nav>
+    <!-- Header-->
+    <header class="bg-dark py-5 mt-5">
+        <div class="container px-4 px-lg-5 my-5 mt-5">
+            <div class="text-center text-white">
+                <h1 class="display-4 fw-bolder">E-Library Indonesia</h1>
+                <p class="lead fw-normal text-white-50 mb-0">Solusi Perpustakaan Digital</p>
+            </div>
+        </div>
+    </header>
      <section id="hero" class="d-flex align-item-center">
          <div class="container">
              <div class="row">
                  <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
                      <!-- <h1 class="text-black">solusi tepat untuk meminjam buku</h1>
-                     <h2 class="text-dark">Aplikasi Kami Terpercaya untuk Memudahkan anda Meminjam Buku</h2> -->
+                     <h2 class="text-dark">Aplikasi Kami Terpercaya untuk Memudahkan anda Mencari,Membaca Buku Yang Anda Butuhkan</h2> -->
                  </div>
                  <div class="col-lg-6 order-1 order-lg-2 hero-img">
                      <img src="/public/images/image1.jpg" class="img-fluid" alt="">
