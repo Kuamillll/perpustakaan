@@ -34,77 +34,69 @@
                 <table id="example1" class="table table-bordered table-striped">
                   <thead>
                     <tr>
+                      <th>ISBN</th>
                       <th>Nama Buku</th>
-                      <th>Persediaan</th>
-                      <th>Keterangan</th>
-                      <th>Jumlah Terbaca</th>
-                      <th>Extra</th>
+                      <th>AUTHOR</th>
+                      <th>PENERBIT</th>
+                      <th>TAHUN TERBIT</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Trident</td>
-                      <td>Internet
-                        Explorer 4.0
-                      </td>
-                      <td>Win 95+</td>
-                      <td> 4</td>
-                      <td>X</td>
+                      <td>9789793062792</td>
+                      <td>5 cm</td>
+                      <td>Donny Dhirgantoro</td>
+                      <td>Gramedia Widiasarana Indonesia</td>
+                      <td>2023</td>
                     </tr>
                     <tr>
-                      <td>Trident</td>
-                      <td>Internet
-                        Explorer 5.0
-                      </td>
-                      <td>Win 95+</td>
-                      <td>5</td>
-                      <td>C</td>
+                      <td>9789797835617</td>
+                      <td>Ancika</td>
+                      <td>Abdullah Dilan</td>
+                      <td>Bandung Production</td>
+                      <td>1995</td>
                     </tr>
                     <tr>
-                      <td>Trident</td>
-                      <td>Internet
-                        Explorer 5.5
-                      </td>
-                      <td>Win 95+</td>
-                      <td>5.5</td>
-                      <td>A</td>
+                      <td>9786020318929</td>
+                      <td>Critical Eleven</td>
+                      <td>Ika Natassa</td>
+                      <td>Gramedia Pustaka Utama</td>
+                      <td>2010</td>
                     </tr>
                     <tr>
-                      <td>Trident</td>
-                      <td>Internet
-                        Explorer 6
-                      </td>
-                      <td>Win 98+</td>
-                      <td>6</td>
-                      <td>A</td>
+                      <td>9789797807696</td>
+                      <td>Kuala Kumal</td>
+                      <td>Raditya Dika</td>
+                      <td>Kawah Media</td>
+                      <td>2015</td>
                     </tr>
                     <tr>
-                      <td>Trident</td>
-                      <td>Internet Explorer 7</td>
-                      <td>Win XP SP2+</td>
-                      <td>7</td>
-                      <td>A</td>
+                      <td>9789793062792</td>
+                      <td>New Edition Laskar Pelangi</td>
+                      <td>Andrea Hirata</td>
+                      <td>Bentang Pustaka</td>
+                      <td>2011</td>
                     </tr>
                     <tr>
-                      <td>Trident</td>
-                      <td>AOL browser (AOL desktop)</td>
-                      <td>Win XP</td>
-                      <td>6</td>
-                      <td>A</td>
+                      <td>9789793098465</td>
+                      <td>One Piece 104</td>
+                      <td>Hiro Hito</td>
+                      <td>Kyoto Entertaiment</td>
+                      <td>2023</td>
                     </tr>
                     <tr>
-                      <td>Gecko</td>
-                      <td>Firefox 1.0</td>
-                      <td>Win 98+ / OSX.2+</td>
-                      <td>1.7</td>
-                      <td>A</td>
+                      <td>9782654086528</td>
+                      <td>OSHI NO KO v3</td>
+                      <td>Tadano hito hito</td>
+                      <td>Tokyo film</td>
+                      <td>2024</td>
                     </tr>
                     <tr>
-                      <td>Gecko</td>
-                      <td>Firefox 1.5</td>
-                      <td>Win 98+ / OSX.2+</td>
-                      <td>1.8</td>
-                      <td>A</td>
+                      <td>Tidak Tersedia</td>
+                      <td>Si Anak Spesial</td>
+                      <td>Tere Liye</td>
+                      <td> republika penerbit</td>
+                      <td>2019</td>
                     </tr>
                 </table>
               </div>
